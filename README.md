@@ -67,3 +67,7 @@ The system consists of three main nodes connected through the CAN communication 
                                             Gauge
 
 The three nodes communicate through the CAN bus while each node interfaces with its dedicated peripherals. This distributed architecture allows vehicle monitoring, indicator control, fuel monitoring, and reverse obstacle detection to operate together as a single system.
+
+## Block Diagram
+
+![CAN-Driven Vehicle Monitoring and Driver Assistance System](./a_clean_flat_infographic_style_block_diagram_on.png)
