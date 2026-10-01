@@ -183,5 +183,3 @@ The Main Node LCD displays the following real-time vehicle information:
 
 
 
-
-
