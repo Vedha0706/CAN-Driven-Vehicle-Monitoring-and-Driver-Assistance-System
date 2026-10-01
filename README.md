@@ -127,6 +127,51 @@ The system consists of three CAN-connected nodes that work together for vehicle 
 4. **Overall Operation**  
    The three nodes continuously exchange information through the **CAN bus**. The Main Node displays the engine temperature, fuel percentage, vehicle mode, and reverse alert status on the LCD.
 
+## Project Workflow
+
+```text
+                    START
+                      |
+                      v
+        Create Project and Node Folders
+                      |
+                      v
+          Test Individual Modules
+                      |
+          +-----------+-----------+
+          |           |           |
+          v           v           v
+         LCD         ADC       Interrupts
+          |           |           |
+          +-----------+-----------+
+                      |
+                      v
+            Test Ultrasonic Sensor
+                      |
+                      v
+          Test Temperature Sensor
+                      |
+                      v
+             Test CAN Communication
+                      |
+                      v
+          Develop Software for Nodes
+                      |
+          +-----------+-----------+
+          |           |           |
+          v           v           v
+      Main Node   Indicator &     Fuel Node
+                  Reverse Alert
+                      |
+                      v
+              Integrate All Nodes
+                      |
+                      v
+              Test Complete System
+                      |
+                      v
+                     END
+
 
 
 
