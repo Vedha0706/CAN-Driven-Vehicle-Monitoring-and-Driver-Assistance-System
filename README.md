@@ -200,6 +200,30 @@ The Main Node LCD displays:
 - Centralized vehicle information dashboards
 - Educational and prototype automotive projects
 
+## Development Tools and Environment
+
+- **Programming Language:** Embedded C
+- **Microcontroller:** LPC2129
+- **IDE / Compiler:** Keil µVision
+- **Programming Tool:** Flash Magic
+- **Communication Protocol:** CAN
+- **CAN Transceiver:** MCP2551
+- **Development Environment:** Embedded System Hardware and Software
+
+## Future Scope
+
+- Add GPS for real-time vehicle location tracking.
+- Add IoT connectivity for remote vehicle monitoring.
+- Add mobile application support for viewing vehicle status.
+- Add more sensors for advanced vehicle monitoring.
+- Improve obstacle detection using advanced sensors.
+- Add data logging for storing vehicle information.
+- Enhance the system with automatic safety and alert features.
+- Expand CAN communication for more vehicle monitoring and control functions.
+
+## Developed By
+B.Vedha Sri
+
 
 
 
