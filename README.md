@@ -110,8 +110,22 @@ CAN-Driven-Vehicle-Monitoring-and-Driver-Assistance-System/
 │
 ├── README.md
 └── LICENSE
+```
+## System Working
 
+The system consists of three CAN-connected nodes that work together for vehicle monitoring and driver assistance.
 
+1. **Main Node**  
+   Continuously reads engine temperature and receives fuel percentage through CAN. It monitors the vehicle mode and sends indicator commands in Forward Mode. In Reverse Mode, it receives the reverse alert status and displays **SAFE, WARNING, or STOP** on the LCD.
+
+2. **Indicator & Reverse Alert Node**  
+   Controls the left and right indicators in Forward Mode. In Reverse Mode, it enables the HC-SR05 ultrasonic sensor to detect obstacles. Based on the obstacle distance, it generates **SAFE, WARNING, or STOP** alerts using the buzzer and LED, and sends the status to the Main Node through CAN.
+
+3. **Fuel Node**  
+   Reads the fuel gauge using the LPC2129 ADC, converts the ADC value into fuel percentage, and periodically sends the fuel percentage to the Main Node through CAN. It also sends an updated value when there is a significant change in fuel level.
+
+4. **Overall Operation**  
+   The three nodes continuously exchange information through the **CAN bus**. The Main Node displays the engine temperature, fuel percentage, vehicle mode, and reverse alert status on the LCD.
 
 
 
