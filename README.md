@@ -171,7 +171,18 @@ The system consists of three CAN-connected nodes that work together for vehicle 
                       |
                       v
                      END
+```
+## Dashboard
 
+The Main Node LCD displays the following real-time vehicle information:
+
+```text
++--------------------------------+
+| Engine Temperature : 75 °C     |
+| Fuel Percentage    : 68 %      |
+| Vehicle Mode       : FORWARD   |
+| Reverse Alert      : SAFE      |
++--------------------------------+
 
 
 
