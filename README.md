@@ -172,11 +172,33 @@ The system consists of three CAN-connected nodes that work together for vehicle 
                       v
                      END
 ```
-## Dashboard
+## Dashboard 
+ 
+The Main Node LCD displays: 
+ 
+```text
+╔══════════════════════════════════╗ 
+║       VEHICLE MONITORING         ║ 
+╠══════════════════════════════════╣ 
+║  Engine Temp : XX °C             ║ 
+║  Fuel Level  : XX %              ║ 
+║  Mode        : FORWARD/REVERSE   ║ 
+║  Alert       : SAFE/WARNING/STOP ║ 
+╚══════════════════════════════════╝
+```
 
-The Main Node LCD displays the following real-time vehicle information:
+## Applications
 
-
+- Automotive vehicle monitoring systems
+- Driver assistance and safety systems
+- Real-time vehicle status monitoring
+- Fuel and engine condition monitoring
+- Reverse parking and obstacle detection
+- Vehicle indicator control systems
+- CAN-based automotive communication
+- Embedded automotive control systems
+- Centralized vehicle information dashboards
+- Educational and prototype automotive projects
 
 
 
