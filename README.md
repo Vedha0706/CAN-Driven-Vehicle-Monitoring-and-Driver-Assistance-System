@@ -67,9 +67,6 @@ The system consists of three main nodes connected through the CAN communication 
                                             Gauge
 
 The three nodes communicate through the CAN bus while each node interfaces with its dedicated peripherals. This distributed architecture allows vehicle monitoring, indicator control, fuel monitoring, and reverse obstacle detection to operate together as a single system.
-
-## Block Diagram
-
 ```
 ## Hardware Components
 
@@ -84,6 +81,35 @@ The three nodes communicate through the CAN bus while each node interfaces with 
 | **Buzzer** | Gives warning alerts |
 | **Switches** | Selects modes and controls indicators |
 | **USB to UART Converter** | Provides serial communication |
+
+## Project Structure
+
+```text
+CAN-Driven-Vehicle-Monitoring-and-Driver-Assistance-System/
+│
+├── Main_Node/
+│   ├── main.c
+│   ├── can.c
+│   ├── lcd.c
+│   ├── adc.c
+│   ├── temperature.c
+│   └── interrupt.c
+│
+├── Indicator_Reverse_Alert_Node/
+│   ├── main.c
+│   ├── can.c
+│   ├── ultrasonic.c
+│   ├── led.c
+│   └── buzzer.c
+│
+├── Fuel_Node/
+│   ├── main.c
+│   ├── can.c
+│   ├── adc.c
+│   └── fuel.c
+│
+├── README.md
+└── LICENSE
 
 
 
