@@ -86,7 +86,7 @@ The three nodes communicate through the CAN bus while each node interfaces with 
 
 <p align="center">
   <img
-    src="https://github.com/Vedha0706/CAN-Driven-Vehicle-Monitoring-and-Driver-Assistance-System/blob/main/block-diagram.png"
+    src="https://raw.githubusercontent.com/Bhargav-33/CAN-Driven-Vehicle-Monitoring-and-Driver-Assistance-System1/main/Screenshot%202026-09-30%20at%2010.56.06.png"
     alt="CAN-Driven Vehicle Monitoring and Driver Assistance System Block Diagram"
     width="1000">
 </p>
