@@ -70,4 +70,4 @@ The three nodes communicate through the CAN bus while each node interfaces with 
 
 ## Block Diagram
 
-![CAN-Driven Vehicle Monitoring and Driver Assistance System](./a_clean_flat_infographic_style_block_diagram_on.png)
+![CAN-Driven Vehicle Monitoring and Driver Assistance System](./block-diagram.png)
