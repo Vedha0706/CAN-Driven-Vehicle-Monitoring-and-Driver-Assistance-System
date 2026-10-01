@@ -177,14 +177,7 @@ The system consists of three CAN-connected nodes that work together for vehicle 
 The Main Node LCD displays the following real-time vehicle information:
 
 
-╔══════════════════════════════════╗
-║     🚗 VEHICLE MONITORING        ║
-╠══════════════════════════════════╣
-║ 🌡️ Engine Temp : XX °C           ║
-║ ⛽ Fuel Level  : XX %             ║
-║ 🚘 Mode        : FORWARD/REVERSE ║
-║ ⚠️ Alert       : SAFE/WARNING/STOP║
-╚══════════════════════════════════╝
+
 
 
 
