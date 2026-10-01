@@ -67,13 +67,20 @@ The system consists of three main nodes connected through the CAN communication 
                                             Gauge
 
 The three nodes communicate through the CAN bus while each node interfaces with its dedicated peripherals. This distributed architecture allows vehicle monitoring, indicator control, fuel monitoring, and reverse obstacle detection to operate together as a single system.
+```
+## Hardware Components
 
-## Block Diagram
-
-![CAN-Driven Vehicle Monitoring and Driver Assistance System](./can-block-diagram.png)
-
-
-
+| Hardware Component | Purpose |
+|---|---|
+| **LPC2129 Microcontroller** | Controls the system |
+| **CAN Transceiver (MCP2551)** | Enables CAN communication |
+| **LCD** | Displays vehicle information |
+| **HC-SR05 Ultrasonic Sensor** | Detects obstacles |
+| **Fuel Gauge** | Measures fuel level |
+| **LEDs** | Shows vehicle status |
+| **Buzzer** | Gives warning alerts |
+| **Switches** | Selects modes and controls indicators |
+| **USB to UART Converter** | Provides serial communication |
 
 
 
