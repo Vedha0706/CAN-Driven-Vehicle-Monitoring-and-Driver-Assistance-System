@@ -82,6 +82,18 @@ The three nodes communicate through the CAN bus while each node interfaces with 
 | **Switches** | Selects modes and controls indicators |
 | **USB to UART Converter** | Provides serial communication |
 
+## Block Diagram
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/Bhargav-33/CAN-Driven-Vehicle-Monitoring-and-Driver-Assistance-System1/main/Screenshot%202026-09-30%20at%2010.56.06.png"
+    alt="CAN-Driven Vehicle Monitoring and Driver Assistance System Block Diagram"
+    width="1000">
+</p>
+
+<p align="center">
+  <b>Three-Node CAN-Based Vehicle Monitoring and Driver Assistance System</b>
+</p>
 ## Project Structure
 
 ```text
